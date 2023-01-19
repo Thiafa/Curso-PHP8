@@ -5,7 +5,7 @@ $nome = 'Thiago César dos Reis Oliveira';
 // echo gettype($nome);
 echo gettype($nome);
 echo get_debug_type($nome);
-
+   
 /* 
 * Tipos Escalares
 
