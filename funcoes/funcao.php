@@ -16,3 +16,11 @@ somar(
   a: '10',
   b: '20', 
 );
+
+function quadrado($num):float{
+  return $num*$num;
+}
+
+var_dump(quadrado(3));
+echo "<p>".quadrado(2)."</p>";
+echo "<p>".quadrado(4)."</p>";
