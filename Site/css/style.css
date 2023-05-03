@@ -1,0 +1,56 @@
+body{
+  background-color: #d2d2c1;
+  font-size:  16px;
+  font-family: arial, helvetica, sans serif;
+  background-image: url("../img/fundo.png");
+  background-color: #c5c5b2;
+}
+
+.principal{
+  border: 1px solid red;
+  width: 900px;
+}
+
+.menu{
+  background: #c5c5b2;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  height: 50px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.menu a:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.menu li::after{
+  content: '|';
+}
+
+.menu li:last-child::after{
+  display: none;
+}
+
+.menu a{
+  color: #4b566a;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.conteudo{
+  background-color: #e8e8d9;
+  padding: 10px;
+}
+
+.conteudo h1{
+  color: #828271;
+  font-size: 1.2em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
